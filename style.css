@@ -1,0 +1,106 @@
+*{     
+    padding: 0;
+     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+    .navbar{
+        background-color: aqua;
+    }
+    .nav-menu{
+        float: right;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: black;
+    }
+    li{
+        list-style-type: none;
+        margin-right: 25px;
+        font-size: 1.1rem;
+    }
+    .nav-navbar{
+        display: flex;
+    }
+    .brand-name{
+        float: left;
+
+    }
+.navBar{
+        margin: 35px;
+        background-color: aqua;
+    }
+.menu-text h1 p{
+    float: right;
+}
+.menu-image img{
+    float: left;
+    margin-right: 35px;
+}
+.container{
+    margin: 35px;
+    
+}
+button{
+    padding: 10px;
+    background-color: rgb(36, 241, 81);
+    font-size: 1.1rem;
+    border-radius: 5px;
+} 
+.specs-heading h1{
+    font-size: 2.5rem;
+    text-shadow: 5px 11px 15px red;
+
+}
+.specs{
+    margin-bottom: 35px;
+}
+
+
+.card{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
+.row{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 1px;
+    padding: 10px;
+}
+.card-body{
+    padding: 5px;
+}
+.col-1{
+    grid-row:1;
+    grid-column:1;
+    margin-right:55px;
+}
+.col-2{
+    grid-row:1;
+    grid-column: 2;
+    margin-right: 55px;
+}
+.col-3{
+    grid-row:1;
+    grid-column: 3;
+    margin-right: 55px;
+}
+.col-4{
+    grid-row:1;
+    grid-column: 4;
+    margin-right: 55px;
+}
+.row-2{
+    margin-top: 25px;
+}
+footer{
+    background-color: rgb(12, 12, 12);
+    color: azure;
+    padding: 20px;
+    width: 100%;
+}
+.specs{
+    display: grid;
+}
